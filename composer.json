@@ -1,0 +1,27 @@
+{
+    "name": "gormack/feature-flags-example",
+    "description": "Example use of Feature flags module for PHP applications",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gormack\\FeatureFlagsExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomasz Jóźwik",
+            "email": "dev@entire.studio"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "gormack/feature-flags": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "/home/gormack/code/EntireStudio/feature-flags"
+        }
+    ]
+}
